@@ -29,7 +29,7 @@ layout: compress
 
     <style>
       .alumni{
-        background: url("../img/spinoza_bg.jpg")no-repeat center; 
+        background: url("../img/brain-bg.jpg") no-repeat center; 
         -webkit-background-size: cover;
         -moz-background-size:cover;
         -o-background-size:cover;
@@ -37,12 +37,70 @@ layout: compress
 
         border-bottom: 2px solid #c0392b;
       }
-      .jumbotron{
-        color:white;
-        text-shadow: 1px 1px black;
+      .jumbotron p{
+        color:black;
+        font-size: 1em;
       }
       .workshop {
         padding: 20px;
+      }
+      .workshop img {
+        padding: 10px 20px;
+        max-width: 30vw;
+        max-height: 30vh;
+      }
+
+      .box{
+        margin: 5vh 50px 0px 50px;
+        padding: 30px;
+        -moz-border-radius:10px;  /* for Firefox */
+        -webkit-border-radius:10px; /* for Webkit-Browsers */
+        border-radius:10px; /* regular */
+        background-color:rgba(255,255,255,0.75);
+      }
+      .img-responsive {
+        text-align: center;
+      }
+      .tile-features .tile .btn {
+        position: absolute;
+        bottom: 10px;
+        width: inherit;
+        left: 14px;
+        right: 14px;
+      }
+      .tile-features .tile-image {
+        height: auto;
+        width: auto;
+        max-width: 100%;
+        max-height: 25%;
+      }
+      @media (max-width: 767px) {
+        .box{
+          margin: 30px 0px 0px 0px;
+          padding: 30px;
+          -moz-border-radius:10px;  /* for Firefox */
+          -webkit-border-radius:10px; /* for Webkit-Browsers */
+          border-radius:10px; /* regular */
+          background-color:rgba(255,255,255,0.75);
+        }
+        .workshop img {
+          padding: 10px 20px;
+          max-width: 50vw;
+        }
+      }
+      @media (max-width: 400px) {
+        .box{
+          margin: 30px 0px 0px 0px;
+          padding: 30px;
+          -moz-border-radius:10px;  /* for Firefox */
+          -webkit-border-radius:10px; /* for Webkit-Browsers */
+          border-radius:10px; /* regular */
+          background-color:rgba(255,255,255,0.75);
+        }
+        .workshop img {
+          padding: 10px 20px;
+          max-width: 100vw;
+        }
       }
     </style>
   </head>
@@ -67,13 +125,13 @@ layout: compress
       <div class="jumbotron landing alumni" id="home">
         <div class="container">
           <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8 box">
               <h1 class="fronttitle"><span class="brand">Dear Alumnus,</span></h1>
-              <p class="lead">It may have been long ago, or relatively recent, but without a doubt you remember studying Cognitive Science or Artificial Intelligence at the Radboud University in Nijmegen. The joys of homework, those wonderful exams, these great teachers, your exquisite fellow students, your youth…</p>
+              <p>It may have been long ago, or relatively recent, but without a doubt you remember studying Cognitive Science or Artificial Intelligence at the Radboud University in Nijmegen. The joys of homework, those wonderful exams, these great teachers, your exquisite fellow students, your youth…</p>
 
-              <p class="lead">Well, soon you can relive or revive those wonderful memories, at the AI/CogSci alumni day on Saturday, the 28th of May, 2016. Yes, in the very same building, yes with the very same (well….slightly older teachers), and yes, with classes and an EXAM!!</p>
+              <p>Well, soon you can relive or revive those wonderful memories, at the AI/CogSci alumni day on Saturday, the 28th of May, 2016. Yes, in the very same building, yes with the very same (well….slightly older teachers), and yes, with classes and an EXAM!!</p>
 
-              <p class="lead">Considering the importance of life-long-learning, we thought it wise to make this day not only fun, but also informative (say, a bit like your original study program). Hence, we organize (apart from coffee, drinks and a buffet) a workshop where you get updated on the most recent, cutting-edge, research on Brain-Computer Interfacing or Human-Robot Interaction (your choice). In four hours you will learn about the latest theory, engage in modeling or experimentation, and receive your Life-Long-Learning Diploma!! (that is, if you pass the exam….)</p>
+              <p>Considering the importance of life-long-learning, we thought it wise to make this day not only fun, but also informative (say, a bit like your original study program). Hence, we organize (apart from coffee, drinks and a buffet) a workshop where you get updated on the most recent, cutting-edge, research on Brain-Computer Interfacing or Human-Robot Interaction (your choice). In four hours you will learn about the latest theory, engage in modeling or experimentation, and receive your Life-Long-Learning Diploma!! (that is, if you pass the exam….)</p>
 
               <p>
                 <a href="#order-tickets" class="btn btn-primary btn-lg" role="button"><i class="fa fa-ticket fa-lg fa-fw"></i> Order tickets</a>
@@ -152,16 +210,22 @@ layout: compress
         <p class="lead">We're offering the following three workshops</p>
 
         <div class="pagination-centered">
-          <div class="col-md-6 workshop tile">
+          <div class="col-md-10 col-md-offset-1 workshop row">
+
             <p class="lead"><strong>"Hands-on" Brain Computer Interface workshop</strong></p>
+
+            <img src="../img/alumni/bci.jpg" alt="BCI" align="left" class="img-responsive">
 
             <p>With the advent of cutting-edge technologies, we have developed new ways to measure human brain activity. The brain-computer interface (BCI) is a direct communication pathway between the brain and an external device. Devices like these allow us to detect cognitive and sensory-motor functions such as phantom limb movements, selective attention and sleep patterns. A computer, programmed to detect these states, can help the user distinguish speech sounds in a new language or help a fully paralyzed user communicate with the outside world. This rapidly emerging field is highly interdisciplinary in nature and draws on expertise in the fields of neuroscience, computer science, cognition, artificial intelligence, user interface design and psychology.
               This workshop teaches how to make a system able read some particular thoughts (such as surprise or limb movement) from brain-waves measured with EEG.  The workshop will start with an introduction to BCIs, brain properties and brain signals. You will then get the opportunity to gain experience with the two main classic types of BCI; 1) evoked BCIs (such as the visual matrix speller and steady-state response BCIs), 2) induced BCIs (such as movement-based BCIs and covert-attention BCIs).
             </p>
           </div>
-          
-          <div class="col-md-6 workshop tile">
+          <div class="col-md-10 col-md-offset-1 workshop row">
+
             <p class="lead"><strong>Building a multimodal conversational robot</strong></p>
+
+            <img src="../img/alumni/robot.jpg" alt="Robot" align="right" class="img-responsive">
+            <br>
 
             <p>Past and current scenarios of robot technologies describe situations in which robots are social companions, assist in the house hold, perform health care tasks, understand every one's needs, and are able to respond appropriately. Robots are able to recognize facial expressions, subtle changes in posture or gesture, and any clues from the voice modality. You, as a former student in AI or Cognitive Science, should know that the state of the art of out-of-the-box robot technology is far from mature. In this workshop we will try to expand the limits of out-of-the-box technology. You will unpack a Nao robot, use the standard (graphical) programming interface called Choreograph, and program your Nao to perform a challenging task. In doing so:</p>
             <ul>
@@ -174,8 +238,9 @@ layout: compress
             <p>... but we will judge your performance in mastering these skills. Only the brave will be rewarded with a diploma during the drinks!</p>
 
           </div>
-          
-          <div class="col-md-6 col-md-offset-3 workshop tile">
+          <div class="col-md-10 col-md-offset-1 workshop row">
+            <img src="../img/alumni/deepnet.jpg" alt="Deep neural net" align="left" class="img-responsive">
+            <br>
             <p class="lead"><strong>Deep Learning</strong></p>
 
             <p>Artificial neural networks have regained popularity in recent years. They have transformed research in computer vision, natural language processing, gaming and robotics. In our own work artificial neural networks are used to probe human brain function at an unprecedented level of accuracy. In this workshop you will learn about the basics of modern neural networks and their applications. During the subsequent practical you will implement and apply neural networks yourself using the Matlab language. Finally your newly acquired knowledge will be tested using an old-fashioned closed-book exam.
