@@ -3,6 +3,6 @@ gem 'github-pages'
  
 # Test the build
 group :test do
-  gem 'rake'
-  gem 'html-proofer'
+  gem 'html-proofer', '2.6.4' 
+  gem 'rake'  
 end

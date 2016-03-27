@@ -1,7 +1,13 @@
 language: ruby
+cache: bundler
+sudo: false
 rvm:
 - 2.1
-script: bundle exec rake test
+
+before_script:
+- bundle update
+
+script: "bundle exec rake test"
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
@@ -9,5 +15,4 @@ env:
 branches:
   only:
     - gh-pages
-    - design-implementation
     - /^feature-.*$/
