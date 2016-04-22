@@ -40,6 +40,9 @@ h3 .subheader {
   min-height: 100%;
   padding-bottom: 345px;
 }
+.main {
+  padding-top: 50px;
+}
 
 /* Top navigation */
 
@@ -219,7 +222,7 @@ footer {
 }
 
 /* Archive page */
-.archive .tile li:first-child {
+.archive li:first-child {
   margin-bottom: 10px;
   font-style: italic;
 }
