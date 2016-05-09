@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="main">
+<div class="container main">
   <div class="speaker-table content">
     <ol class="breadcrumb">
       <li><a href="../../previous-editions">Overview</a></li>
@@ -42,7 +42,7 @@ layout: default
         </div>
         <div class="class-md-4">
           {% if page.image-src != null %}
-          <img class="img-responsive" src="{{ page.image-src }}" alt="Picture of the speaker">
+          <img class="img-responsive" src="{{ page.image-src }}" alt="Picture of the speaker" style="max-width: 300px; max-height: 300px">
           {% endif %}
         </div>
       </div>
