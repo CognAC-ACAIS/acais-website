@@ -16,3 +16,6 @@ TBA_modus: false
 permalink: pretty
 
 exclude: [vendor] # for travis
+
+gems:
+- jekyll-redirect-from
