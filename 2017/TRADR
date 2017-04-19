@@ -1,12 +1,18 @@
 ---
 layout: speaker
-author: Peter Werkhoven
-organisation: Utrecht University
-subject: Beyond AR &amp; the Internet of Brains
-image-src: /img/speakers/peterwerkhoven.jpg
+author: Joachim de Greeff
+organisation: TU Delft
+subject: The TRADR project: applied Human-Robot Teaming in the context of Search &amp; Rescue
+image-src: /img/speakers/joachimdegreeff.jpg
 year: 2017
 ---
-<p>Peter Werkhoven has a background in physics, psychology and computer science, is a professor Multimodal Interaction in Virtual Environments at Utrecht University. He is also the Managing Director Technical Sciences at TNO.
-Since the nineties he studied how to let people perceive, manipulate and navigate in virtual environments with body mounted devices, and applied the findings in the domains of virtual prototyping  and training applications. His later research focused on the skin as an information channel (tactile suits), on how we integrate our senses to a single percept, on how to navigate VR using brain signals, and on how induce stress with VR games.
-He envisions that computers will be directly connected with our brains (making displays redundant), and that the real and virtual world will radically merge into augmented reality, exosomatic memory, and in the end into the internet of brains.</p>
+<p>
+In recent years, application of robots in disaster environments has increased. This trend is fueled by robots becoming more sophisticated in both hardware and software capabilities, offering functionalities beyond the abilities of human rescue workers, as well as helping to reduce human rescue workers exposure to dangerous environments.
+</p>
+<p>
+However, despite these technological advancements, deploying such robots in a real-life disaster environment and have them effectively collaborate with humans remains a real challenge. This is partially caused by the fact that it is currently unclear for rescue organizations what can and cannot be expected from rescue robots, due to the rapid development in the field. As such, to ensure effective uptake of these new technologies, a vital part remains extensive testing with end-users.
+</p>
+<p>
+The TRADR project develops robots for robot-assisted disaster response. In an iterative fashion, we test new technology with end-users under realistic conditions. In this talk I will provide an overview of the TRADR project and explain how we go from theoretical explorations to actual field deployment.
+</p>
 <p>  Inspirational talk, easy to follow for non-AI students, propedeuse level </p>
