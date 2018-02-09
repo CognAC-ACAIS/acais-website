@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% if site.TBA_modus == false %}
+{% if site.full_modus == true %}
 <div class="jumbotron landing" id="home">
   <div class="container">
     <div class="row">
@@ -641,5 +641,26 @@ Isabela Granic
       </ul>
     </div>
   </div> 
+</div>
+{% endif %}
+
+{% if site.STD_modus == true %}
+<div class="TBA">
+  <div class="col-md-6 TBA-box">
+    <div class="TBA-text">
+      <h2 class="TBA-text">Save the date!</h2>
+      <p class="TBA-text"><b>
+        Date: 23/05/2018<br>
+        Time: 11:00 - 17:00 (lectures are accounted for)
+      </b></p>
+      <p class="TBA-text">
+        ACAIS 2018 is taking shape as you're reading this. For now you can:
+      </p>
+      <ul>
+        <li>Stay up to date by <a href="https://www.facebook.com/ACAIS-1554509421467706">following us on facebook</a>.</li>
+        <li>Check out what previous symposia were about in <a href="/previous-editions/">our archive</a>.</li>
+      </ul>
+    </div>
+  </div>
 </div>
 {% endif %}
