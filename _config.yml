@@ -14,7 +14,7 @@ hide_feature_overview: false
 TBA_modus: false
 STD_modus: false
 full_modus: true
-can_order_tickets: false
+can_order_tickets: true
 
 permalink: pretty
 
