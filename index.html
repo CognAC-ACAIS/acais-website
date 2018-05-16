@@ -17,7 +17,8 @@ layout: default
         
         <p>
           {% if site.can_order_tickets == true %}
-          <a href="#order-tickets" class="btn btn-primary btn-lg" role="button"><i class="fa fa-ticket fa-lg fa-fw"></i> Order tickets</a>
+          <!-- <a href="#order-tickets" class="btn btn-primary btn-lg" role="button"><i class="fa fa-ticket fa-lg fa-fw"></i> Order tickets</a>-->
+          <a href="#order-tickets" class="btn btn-primary btn-lg" disabled="disabled" role="button">Tickets sold out!</a>
           {% endif %}
         </p>
         
@@ -426,7 +427,8 @@ Isabela Granic
       </p>
 
       {% if site.can_order_tickets == true %}
-        <a href="https://shop.ikbenaanwezig.nl/tickets/event/acais-2018-language-ai" class="btn btn-primary btn-lg" style="background-color: #1ABC9C">Order Ticket</a>
+        <!--<a href="https://shop.ikbenaanwezig.nl/tickets/event/acais-2018-language-ai" class="btn btn-primary btn-lg" style="background-color: #1ABC9C">Order Ticket</a>-->
+        <btn href="#" class="btn btn-primary btn-lg" disabled="disabled">Tickets are sold out!</btn>
       {% else %}
         <p>You can order your tickets here soon!</p>
       {% endif %}

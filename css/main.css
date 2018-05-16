@@ -70,6 +70,9 @@ h3 .subheader {
 .navbar .navbar-nav li a.order-tickets {
   background-color: #1ABC9C;
 }
+.navbar .navbar-nav li a.order-tickets-sold-out {
+  background-color: #bdc3c7;
+}
 .navbar-inverse .navbar-toggle:hover:before, .navbar-inverse .navbar-toggle:focus:before {
   color: black;
 }

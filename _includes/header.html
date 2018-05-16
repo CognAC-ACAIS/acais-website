@@ -22,7 +22,9 @@
         <li><a href="/previous-editions/"><i class="fa fa-archive fa-lg fa-fw"></i> <span class="hidden-sm">Previous editions</span></a></li>
         {% if site.full_modus == true %}
           {% if site.can_order_tickets == true %}
-          <li><a class="order-tickets" href="/#order-tickets"><i class="fa fa-ticket fa-lg fa-fw"></i> Order tickets <i class="fa fa-long-arrow-right fa-fw"></i></a></li>
+          <!--<li><a class="order-tickets" href="/#order-tickets"><i class="fa fa-ticket fa-lg fa-fw"></i> Order tickets! <i class="fa fa-long-arrow-right fa-fw"></i></a></li>-->
+          <li><a class="order-tickets-sold-out" href="/#order-tickets" disabled="disabled"><i class="fa fa-ticket fa-lg fa-fw"></i> Tickets sold out!</a></li>
+          
           {% else %}
           <li><a href="/#order-tickets"><i class="fa fa-ticket fa-lg fa-fw"></i> Order tickets <i class="fa fa-long-arrow-right fa-fw"></i></a></li>
           {% endif %}
